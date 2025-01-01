@@ -1,0 +1,159 @@
+// MY COLOR
+$gray:  #efefeb;
+$blue:    #2274A5;
+// $green: #408e87;
+
+$primary:       $gray;
+$secondary:     $blue;
+$gradient: radial-gradient(#eff5ce, #eefe90, #ecff36);
+
+// $gradient: radial-gradient(circle at 50% 50%, #99bfb0 0, #86b4a7 16.67%, #69a499 33.33%, #408e87 50%, #007977 66.67%, #00696e 83.33%, #005e6a 100%);
+// $gradient: radial-gradient(#99bfb0, #408e87, #007977);
+
+// WHITE AND GRAY
+$white:    #fff;
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #6c757d;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+$black:    #000;
+
+// IMPORT BOOTSTRAP
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+
+
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+// NAVBAR
+
+nav{
+
+    img{
+        height: 5rem;
+    }
+
+    li{
+        padding: 0 0.75rem;
+        font-size: 18px;
+    }
+    
+    .btn-rounded{ 
+        padding: 0.9rem 1.2rem;
+        margin: 0;
+        border: 0.1rem solid rgba($gray-800, 0);
+        background-color: rgba($gray-800, 0.8);
+        color: $white;
+        font-size: 18px;
+    }
+}
+
+// INTRO
+
+.container-fluid{
+    min-height: 90vh;
+    color: $gray-700;
+
+    h1{
+        font-weight: 500;
+        text-transform: uppercase;
+    }
+
+    h3{
+        font-weight: 300;
+    }
+}
+
+// HERO
+
+.hero-content{
+    background-color: $gray;
+
+    .row{
+        min-height: 90vh;
+    }
+
+    img{
+        border-radius: 50%;
+        object-fit: cover;
+    }
+}
+
+// SKILL
+
+.skill-content{
+    min-height: 90vh;
+    
+    .card-img-top {
+        max-width: 100%; 
+        max-height: 150px; 
+        object-fit: contain; 
+        margin: 0 auto;
+    }
+
+    .card{
+        padding: 0.5rem;
+        width: 100%;   
+        max-width: 400px; 
+        color: $gray-700;
+        background-color: hsla(60, 11%, 93%, 0.6);
+    }
+}
+
+// PROGETTI
+
+#progetti{
+    min-height: 70vh;
+}
+
+// FOOTER
+.footer-content {
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+// CV PAGE
+
+.cv-content{
+    background-color: $blue;
+    min-height: fit-content;
+
+    .card{
+        width: 100%;   
+        max-width: 500px; 
+        background-color: hsla(60, 11%, 93%, 0.4);
+        color: $white;
+    }
+
+    .list-group-item{
+        background-color: transparent;
+        color: $white;
+        border-bottom: none;
+        font-size: 18px;
+    }
+}
+
+svg{
+    max-width: 100%; 
+    max-height: 80px;
+    object-fit: contain;
+}
+
+// FORM
+
+.form-content{
+    min-height: unset;
+}
+
+
+
+
+
+
+

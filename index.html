@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio</title>
+    <!-- Stile e Font -->
+    <link rel="stylesheet" href="./Styles/Style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Favicon -->
+    <link rel="icon" href="./Assets/Immagini/favicon-32x32.png" type="image/png" sizes="32x32">
+    <!-- Opengraph -->
+    <meta property="og:title" content="Portfolio di Simone Romanò"/>
+    <meta property="og:description" content="Portfolio di Simone Romanò"/>
+    <meta property="og:url" content="https://"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:locale" content="it_IT"/>
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg bg-primary shadow-lg sticky-top">
+        <div class="container">
+          <a class="navbar-brand" href="/index.html#intro">
+            <img src="./Assets/Immagini/Logo.png" alt="logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="/cv.html">Curriculum</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/index.html#progetti">Progetti</a>
+              </li>
+            </ul>
+            <a href="./contact.html"><button type="button" class="rounded-pill btn-rounded">Contatti</button></a>
+          </div>
+        </div>
+    </nav>
+
+    <!-- INTRO -->
+    <section id="intro" class="container-fluid d-flex flex-column justify-content-center align-items-center flex-wrap bg-gradient overflow-hidden">
+      <div class="p-3 bd-highlight text-center">
+        <h1 class="display-1 ">Simone Romanò</h1>
+      </div>
+      <div class="p-2 bd-highlight">
+        <h3 class="display-5 text-center">Front End Developer</h3>
+      </div>
+    </section>
+
+    <!-- HERO -->
+    <section class="container-fluid hero-content">
+      <div class="row justify-content-evenly">
+        <div class="col-md-4 col-12 d-flex flex-column align-items-start mt-5 mb-5 mb-md-0">
+          <h2 class="pt-3 pt-md-4 fs-2">Ciao, sono Simone</h2>
+          <p class="pt-3 fs-5">Lavoro in ambito amministrativo in un laboratorio odontotecnico, ma la passione per l'informatica mi ha spinto a iniziare il corso per diventare front end developer.</p>
+        </div>
+        <div class="col-md-4 col-12">
+          <img class="img-fluid mt-md-5 pt-md-5 mb-5" src="./Assets/Immagini/Foto.jpg" alt="Foto Simone">
+        </div>
+      </div>
+    </section>
+    
+    <!-- SKILL -->
+    <div class="container-fluid bg-gradient skill-content p-5">
+      <div class="text-center p-4">
+        <h2 class="text-uppercase fs-1">skill</h2>
+        <p class="fs-4">In aggiornamento</p>
+      </div>
+      <!-- Cards Section -->
+      <div class="row row-cols-1 row-cols-md-3 g-4 g-sm-4 mt-4">
+        <div class="col d-flex flex-column align-items-center justify-content-center">
+          <div class="card d-flex flex-column align-items-center p-4 shadow-lg rounded-4">
+            <img src="./Assets/Immagini/HTML Icon.svg" class="card-img-top img-fluid" alt="logo html">
+            <div class="card-body">
+              <h5 class="card-title text-center">HTML</h5>
+              <p class="card-text text-center">Livello base</p>
+            </div>
+          </div>
+        </div>
+        <div class="col d-flex flex-column align-items-center justify-content-center">
+          <div class="card d-flex flex-column align-items-center p-4 shadow-lg rounded-4">
+            <img src="./Assets/Immagini/CSS Icon.svg" class="card-img-top img-fluid" alt="logo css">
+            <div class="card-body">
+              <h5 class="card-title text-center">CSS</h5>
+              <p class="card-text text-center">Livello base</p>
+            </div>
+          </div>
+        </div>
+        <div class="col d-flex flex-column align-items-center justify-content-center">
+          <div class="card d-flex flex-column align-items-center p-4 shadow-lg rounded-4">
+            <img src="./Assets/Immagini/JAVA Icon.svg" class="card-img-top img-fluid" alt="logo javascript">
+            <div class="card-body">
+              <h5 class="card-title text-center">JAVASCRIPT</h5>
+              <p class="card-text text-center">In corso</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- PROGETTI -->
+    <div id="progetti" class="container-fluid bg-gradient skill-content d-flex align-items-center justify-content-center">
+      <div class="text-center p-5">
+        <h2 class="text-uppercase fs-1">PROGETTI</h2>
+        <p class="fs-4">In aggiornamento</p>
+      </div>
+      <!-- Cards Section -->
+    </div>
+    
+    <!-- FOOTER -->
+      <footer class="d-flex flex-wrap justify-content-around align-items-center py-3 py-md-5 bg-primary footer-content">
+        <div class="col-md-4 d-flex align-items-center">
+          <span class="mb-3 mb-sm-0 fs-5 text-muted">&copy; 2024 Simone Romanò</span>
+        </div>
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+          <li class="ms-0"><a href="https://github.com/SimoneRomano3" target="_blank"><i class="fa-brands fa-github fa-2xl" style="color: #495057;"></i></a></li>
+          <li class="ms-4"><a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook fa-2xl" style="color: #495057;"></i></a></li>
+          <li class="ms-4"><a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-square-instagram fa-2xl" style="color: #495057;"></i></a></li>
+          <li class="ms-4"><a href="https://www.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin fa-2xl" style="color: #495057;"></i></a></li>
+        </ul>
+      </footer>
+
+    <!-- SCRIPT -->
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="https://kit.fontawesome.com/3c27f39276.js" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+@use "custom" as *;
+
+
+// HERO CV
+
+.hero-cv{
+    background-color: $blue;
+
+    .row{
+        min-height: 90vh;
+    }
+
+    img{
+        border-radius: 50%;
+        object-fit: cover;
+    }
+}
+
+// SKILL CV
+
+.skill-content{
+    min-height: 90vh;
+    
+    .card-img-top {
+        max-width: 100%; 
+        max-height: 150px; 
+        object-fit: contain; 
+        margin: 0 auto;
+    }
+
+    .card{
+        padding: 0.5rem;
+        width: 100%;   
+        max-width: 400px; 
+        color: $gray-700;
+        background-color: hsla(60, 11%, 93%, 0.6);
+    }
+}
