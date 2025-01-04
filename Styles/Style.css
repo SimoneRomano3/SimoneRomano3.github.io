@@ -11986,7 +11986,7 @@ nav .btn-rounded {
 }
 
 .container-fluid, .container-sm, .container-md, .container-lg, .container-xl, .container-xxl {
-  min-height: 90vh;
+  min-height: 100vh;
   color: #495057;
 }
 .container-fluid h1, .container-sm h1, .container-md h1, .container-lg h1, .container-xl h1, .container-xxl h1, .container-fluid .h1, .container-sm .h1, .container-md .h1, .container-lg .h1, .container-xl .h1, .container-xxl .h1 {
