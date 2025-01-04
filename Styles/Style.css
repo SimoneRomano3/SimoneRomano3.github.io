@@ -11983,6 +11983,10 @@ nav .btn-rounded {
   background-color: rgba(52, 58, 64, 0.8);
   color: #fff;
   font-size: 18px;
+  display: block;
+}
+nav a {
+  text-decoration: none;
 }
 
 .container-fluid, .container-sm, .container-md, .container-lg, .container-xl, .container-xxl {
